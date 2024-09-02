@@ -7,6 +7,7 @@ C:\Users\kettn\Documents\CS5600\CS5600HW1\CS5600HW1Logic\obj\Debug\net6.0\CS5600
 C:\Users\kettn\Documents\CS5600\CS5600HW1\CS5600HW1Logic\obj\Debug\net6.0\CS5600HW1Logic.AssemblyInfoInputs.cache
 C:\Users\kettn\Documents\CS5600\CS5600HW1\CS5600HW1Logic\obj\Debug\net6.0\CS5600HW1Logic.AssemblyInfo.cs
 C:\Users\kettn\Documents\CS5600\CS5600HW1\CS5600HW1Logic\obj\Debug\net6.0\CS5600HW1Logic.csproj.CoreCompileInputs.cache
+C:\Users\kettn\Documents\CS5600\CS5600HW1\CS5600HW1Logic\obj\Debug\net6.0\CS5600HW1Logic.sourcelink.json
 C:\Users\kettn\Documents\CS5600\CS5600HW1\CS5600HW1Logic\obj\Debug\net6.0\CS5600HW1Logic.dll
 C:\Users\kettn\Documents\CS5600\CS5600HW1\CS5600HW1Logic\obj\Debug\net6.0\refint\CS5600HW1Logic.dll
 C:\Users\kettn\Documents\CS5600\CS5600HW1\CS5600HW1Logic\obj\Debug\net6.0\CS5600HW1Logic.pdb

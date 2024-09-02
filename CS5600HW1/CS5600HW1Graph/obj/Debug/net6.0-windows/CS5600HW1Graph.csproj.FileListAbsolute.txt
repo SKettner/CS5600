@@ -15,6 +15,7 @@ C:\Users\kettn\Documents\CS5600\CS5600HW1\CS5600HW1Graph\obj\Debug\net6.0-window
 C:\Users\kettn\Documents\CS5600\CS5600HW1\CS5600HW1Graph\obj\Debug\net6.0-windows\CS5600HW1Graph.AssemblyInfoInputs.cache
 C:\Users\kettn\Documents\CS5600\CS5600HW1\CS5600HW1Graph\obj\Debug\net6.0-windows\CS5600HW1Graph.AssemblyInfo.cs
 C:\Users\kettn\Documents\CS5600\CS5600HW1\CS5600HW1Graph\obj\Debug\net6.0-windows\CS5600HW1Graph.csproj.CoreCompileInputs.cache
+C:\Users\kettn\Documents\CS5600\CS5600HW1\CS5600HW1Graph\obj\Debug\net6.0-windows\CS5600HW1Graph.sourcelink.json
 C:\Users\kettn\Documents\CS5600\CS5600HW1\CS5600HW1Graph\obj\Debug\net6.0-windows\CS5600HW.ED3855C0.Up2Date
 C:\Users\kettn\Documents\CS5600\CS5600HW1\CS5600HW1Graph\obj\Debug\net6.0-windows\CS5600HW1Graph.dll
 C:\Users\kettn\Documents\CS5600\CS5600HW1\CS5600HW1Graph\obj\Debug\net6.0-windows\refint\CS5600HW1Graph.dll

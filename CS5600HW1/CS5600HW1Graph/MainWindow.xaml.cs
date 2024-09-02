@@ -1,4 +1,5 @@
 ﻿using LiveCharts;
+using LiveCharts.Defaults;
 using LiveCharts.Wpf;
 using System;
 using System.Windows;
@@ -15,19 +16,22 @@ namespace CS5600HW1
         {
             InitializeComponent();
 
+            double startingX = -.42;
+            double endingX = -.4;
+
             // Define the series for the chart
             var series = new LineSeries
             {
                 Title = "f(x) = -12 - 21x + 18x² - 2.75x³",
-                Values = new ChartValues<double>(),
+                Values = new ChartValues<ObservablePoint>(),
                 Fill = Brushes.Transparent // This removes the fill under the line
             };
 
             // Calculate f(x) for a range of x values and add to the series
-            for (double x = 2.17; x <= 2.25; x += .0001)
+            for (double x = startingX; x <= endingX; x += .0001)
             {
                 double y = CalculateFunction(x);
-                series.Values.Add(y);
+                series.Values.Add(new ObservablePoint(x, y));
             }
 
             // Add the series to the chart
@@ -37,7 +41,8 @@ namespace CS5600HW1
             cartesianChart.AxisX.Add(new Axis
             {
                 Title = "X",
-                Labels = null
+                MinValue = startingX,  // Set minimum x value
+                MaxValue = endingX,  // Set maximum x value
             });
 
             cartesianChart.AxisY.Add(new Axis
