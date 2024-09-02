@@ -1,0 +1,14 @@
+C:\Users\kettn\Documents\CS5600\CS5600HW1\CS5600HW1Logic\bin\Debug\net6.0\CS5600HW1Logic.exe
+C:\Users\kettn\Documents\CS5600\CS5600HW1\CS5600HW1Logic\bin\Debug\net6.0\CS5600HW1Logic.deps.json
+C:\Users\kettn\Documents\CS5600\CS5600HW1\CS5600HW1Logic\bin\Debug\net6.0\CS5600HW1Logic.runtimeconfig.json
+C:\Users\kettn\Documents\CS5600\CS5600HW1\CS5600HW1Logic\bin\Debug\net6.0\CS5600HW1Logic.dll
+C:\Users\kettn\Documents\CS5600\CS5600HW1\CS5600HW1Logic\bin\Debug\net6.0\CS5600HW1Logic.pdb
+C:\Users\kettn\Documents\CS5600\CS5600HW1\CS5600HW1Logic\obj\Debug\net6.0\CS5600HW1Logic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kettn\Documents\CS5600\CS5600HW1\CS5600HW1Logic\obj\Debug\net6.0\CS5600HW1Logic.AssemblyInfoInputs.cache
+C:\Users\kettn\Documents\CS5600\CS5600HW1\CS5600HW1Logic\obj\Debug\net6.0\CS5600HW1Logic.AssemblyInfo.cs
+C:\Users\kettn\Documents\CS5600\CS5600HW1\CS5600HW1Logic\obj\Debug\net6.0\CS5600HW1Logic.csproj.CoreCompileInputs.cache
+C:\Users\kettn\Documents\CS5600\CS5600HW1\CS5600HW1Logic\obj\Debug\net6.0\CS5600HW1Logic.dll
+C:\Users\kettn\Documents\CS5600\CS5600HW1\CS5600HW1Logic\obj\Debug\net6.0\refint\CS5600HW1Logic.dll
+C:\Users\kettn\Documents\CS5600\CS5600HW1\CS5600HW1Logic\obj\Debug\net6.0\CS5600HW1Logic.pdb
+C:\Users\kettn\Documents\CS5600\CS5600HW1\CS5600HW1Logic\obj\Debug\net6.0\CS5600HW1Logic.genruntimeconfig.cache
+C:\Users\kettn\Documents\CS5600\CS5600HW1\CS5600HW1Logic\obj\Debug\net6.0\ref\CS5600HW1Logic.dll
