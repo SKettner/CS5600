@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CS5600HW1Graph")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5f24535a3e8f918fc85530a01cf8760e42af9252")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f7c390b632749ba9ac113b1c06d7161ad3de0a8b")]
 [assembly: System.Reflection.AssemblyProductAttribute("CS5600HW1Graph")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CS5600HW1Graph")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
