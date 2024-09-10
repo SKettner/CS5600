@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\kettn\\Documents\\CS5600\\CS5600HW1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{733629AB-7A7D-40C6-BD1A-3CF11EDBE4A4}|CS5600HW1Logic\\CS5600HW1Logic.csproj|c:\\users\\kettn\\documents\\cs5600\\cs5600hw1\\cs5600hw1logic\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{733629AB-7A7D-40C6-BD1A-3CF11EDBE4A4}|CS5600HW1Logic\\CS5600HW1Logic.csproj|solutionrelative:cs5600hw1logic\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3881C339-7ED0-44F1-84E3-51D66CFCDC57}|CS5600HW1Graph\\CS5600HW1Graph.csproj|c:\\users\\kettn\\documents\\cs5600\\cs5600hw1\\cs5600hw1graph\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3881C339-7ED0-44F1-84E3-51D66CFCDC57}|CS5600HW1Graph\\CS5600HW1Graph.csproj|solutionrelative:cs5600hw1graph\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,27 +27,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\kettn\\Documents\\CS5600\\CS5600HW1\\CS5600HW1Graph\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "CS5600HW1Graph\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\kettn\\Documents\\CS5600\\CS5600HW1\\CS5600HW1Graph\\MainWindow.xaml.cs*",
-              "RelativeToolTip": "CS5600HW1Graph\\MainWindow.xaml.cs*",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABMAAAAeAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\kettn\\Documents\\CS5600\\CS5600HW1\\CS5600HW1Logic\\Program.cs",
+              "RelativeDocumentMoniker": "CS5600HW1Logic\\Program.cs",
+              "ToolTip": "C:\\Users\\kettn\\Documents\\CS5600\\CS5600HW1\\CS5600HW1Logic\\Program.cs",
+              "RelativeToolTip": "CS5600HW1Logic\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T14:19:13.692Z",
+              "WhenOpened": "2024-09-08T20:41:03.205Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\kettn\\Documents\\CS5600\\CS5600HW1\\CS5600HW1Graph\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "CS5600HW1Graph\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\kettn\\Documents\\CS5600\\CS5600HW1\\CS5600HW1Graph\\MainWindow.xaml.cs",
+              "RelativeToolTip": "CS5600HW1Graph\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T14:19:13.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\kettn\\Documents\\CS5600\\CS5600HW1\\CS5600HW1Graph\\MainWindow.xaml",
               "RelativeDocumentMoniker": "CS5600HW1Graph\\MainWindow.xaml",
               "ToolTip": "C:\\Users\\kettn\\Documents\\CS5600\\CS5600HW1\\CS5600HW1Graph\\MainWindow.xaml",
               "RelativeToolTip": "CS5600HW1Graph\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-08T14:19:02.976Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-08T14:19:02.976Z"
             }
           ]
         }
