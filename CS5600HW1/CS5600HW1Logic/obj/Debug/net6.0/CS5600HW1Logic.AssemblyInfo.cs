@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CS5600HW1Logic")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6c4ccfcac7d57cbbac2aebae3dc631b7d95e740b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d6d9077d7495bbf3022ec545d39b84d813a3143d")]
 [assembly: System.Reflection.AssemblyProductAttribute("CS5600HW1Logic")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CS5600HW1Logic")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
