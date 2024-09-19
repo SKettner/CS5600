@@ -28,13 +28,18 @@ public class CS5600HW1Logic
 
         Func<double, double> polynomialFunction3Prime = x => 4 * .0074 * Math.Pow(x, 3) - 3 * .284 * Math.Pow(x, 2) + 2 * 3.355 * x - 12.183;
 
-        Console.WriteLine(NewtonRaphson(16.15, polynomialFunction3, polynomialFunction3Prime));
+        Console.WriteLine(NewtonRaphson(17, polynomialFunction3, polynomialFunction3Prime));
 
-        //Func<double, double> polynomialFunction4 = x => 4 * x - 1.8 * Math.Pow(x, 2) + 1.2 * Math.Pow(x, 3) - 0.3 * Math.Pow(x, 4);
+        /*
+        Func<double, double> polynomialFunction4 = x => 4 * x - 1.8 * Math.Pow(x, 2) + 1.2 * Math.Pow(x, 3) - 0.3 * Math.Pow(x, 4);
 
-        //Console.WriteLine(GoldenSectionSearchMax(-2, 4, polynomialFunction4));
+        Func<double, double> polynomialFunction4Prime = x => 4 - 2 * 1.8 * x + 3 * 1.2 * Math.Pow(x, 2) - 4 * 0.3 * Math.Pow(x, 3);
 
-        //Console.WriteLine(parabolicInterpolation(1.75, 2, 2.5, polynomialFunction4));
+        Console.WriteLine(Bisection(1, 3, polynomialFunction4Prime));
+
+        Console.WriteLine(GoldenSectionSearchMax(-2, 4, polynomialFunction4));
+
+        Console.WriteLine(parabolicInterpolation(1.75, 2, 2.5, polynomialFunction4));*/
 
 
     }
@@ -89,7 +94,7 @@ public class CS5600HW1Logic
         double xr = xl + Math.Abs(((xl - xu) / 2));
         double xrOld = 0;
 
-        for (int i = 0; i < 20 && Math.Abs((xr - xrOld) / xr) > 0.1; i++)
+        for (int i = 0; i < 20 && Math.Abs((xr - xrOld) / xr) > 0.0001; i++)
         {
             Console.WriteLine("Number of iterations: " + i);
             double fl = polynomialFunction(xl);
@@ -176,7 +181,7 @@ public class CS5600HW1Logic
 
             i++;
 
-        } while (i < 20 && Math.Abs((x - xOld) / x) > 0.1);
+        } while (i < 20 && Math.Abs((x - xOld) / x) > 0.0000001);
 
         return x;
     }
@@ -291,9 +296,9 @@ public class CS5600HW1Logic
                 }
             }
 
-            i++; 
+            i++;
 
-        } while (i < 200 && Math.Abs((x - xOld) / x) > 0.001);
+        } while (i < 5); //&& Math.Abs((x - xOld) / x) > 0.001);
 
         return x;
     }
