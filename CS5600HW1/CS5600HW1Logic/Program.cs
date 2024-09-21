@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Security.Cryptography.X509Certificates;
 
+//Much of this code was generated with the help of ChatGPT full conversation here: https://docs.google.com/document/d/1UrLh0OxeJ3FkEKg26lzU8MEIWFEr2leX91e96LXiORs/edit?usp=sharing
+
 public class CS5600HW1Logic
 {
     public static void Main(string[] args)
@@ -22,14 +24,14 @@ public class CS5600HW1Logic
         for(int i = 0; i < rootBrackets.Count; i++)
         {
             Console.WriteLine("Root " + i + " : " + Bisection(rootBrackets[i].Item1, rootBrackets[i].Item2, polynomialFunction2));
-        }*/
+        }
 
         Func<double, double> polynomialFunction3 = x => .0074 * Math.Pow(x, 4) - .284 * Math.Pow(x, 3) + 3.355 * Math.Pow(x, 2) - 12.183 * x + 5;
 
         Func<double, double> polynomialFunction3Prime = x => 4 * .0074 * Math.Pow(x, 3) - 3 * .284 * Math.Pow(x, 2) + 2 * 3.355 * x - 12.183;
 
         Console.WriteLine(NewtonRaphson(17, polynomialFunction3, polynomialFunction3Prime));
-
+        */
         /*
         Func<double, double> polynomialFunction4 = x => 4 * x - 1.8 * Math.Pow(x, 2) + 1.2 * Math.Pow(x, 3) - 0.3 * Math.Pow(x, 4);
 
@@ -40,6 +42,10 @@ public class CS5600HW1Logic
         Console.WriteLine(GoldenSectionSearchMax(-2, 4, polynomialFunction4));
 
         Console.WriteLine(parabolicInterpolation(1.75, 2, 2.5, polynomialFunction4));*/
+
+        Tuple<double, double> output = CS5600HW1Prob6(.6, 10, .4);
+
+        Console.WriteLine("x1: " + output.Item1 + "         Degrees: " + output.Item2);
 
 
     }
@@ -69,7 +75,7 @@ public class CS5600HW1Logic
 
         List<Tuple<double, double>> returnList = new List<Tuple<double, double>>();
 
-        for (double i = start + changeby; i <= end; i = i+changeby)
+        for (double i = start + changeby; i <= end; i = i + changeby)
         {
             double currnetEntry = polynomialFunction(i);
 
@@ -134,10 +140,10 @@ public class CS5600HW1Logic
 
             double fl = polynomialFunction(xl);
             double fu = polynomialFunction(xu);
-            
+
 
             xrOld = xr;
-            xr = (fl* xu- fu* xl)/(fl- fu);
+            xr = (fl * xu - fu * xl) / (fl - fu);
 
             double fr = polynomialFunction(xr);
 
@@ -177,7 +183,7 @@ public class CS5600HW1Logic
 
             xOld = x;
 
-            x = x - fx/ fxPrime;
+            x = x - fx / fxPrime;
 
             i++;
 
@@ -303,5 +309,149 @@ public class CS5600HW1Logic
         return x;
     }
 
+    public static Tuple<double, double> CS5600HW1Prob6(double h1, double h2, double L)
+    {
+
+        double initialVelocity = 15.0;  // Initial velocity in m/s
+        double g = 9.8;   // Gravitational acceleration in m/s²
+
+        double minT = double.MaxValue;
+        double minValue = double.MaxValue;
+        double bestTheta = 0;
+
+
+        for (double thetaDegrees = 0; thetaDegrees <= 90; thetaDegrees++)
+        {
+            // Convert degrees to radians
+            double theta = Math.PI * thetaDegrees / 180.0;
+
+            // Quadratic coefficients for a*t^2 + b*t + c = 0
+            double a = -0.5 * g;  // Coefficient of t^2
+            double b = initialVelocity * Math.Sin(theta);  // Coefficient of t
+            double c = -(h2 - h1 + L * Math.Sin(theta));  // Constant term
+
+            // Use the quadratic formula to find the two values for t
+            var result = QuadraticFormula(a, b, c);
+
+            if (result != null)
+            {
+                double t1 = result.Item1;
+                double t2 = result.Item2;
+
+                double currentT = 0;
+
+                if (t1 > 0 && t2 > 0)
+                {
+                    currentT = Math.Min(t1, t2);
+                }
+                else if (t1 > 0)
+                {
+                    currentT = t1;
+                }
+                else if (t2 > 0)
+                {
+                    currentT = t2;
+                }
+                else
+                {
+                    // No positive time, skip this iteration
+                    continue;
+                }
+
+
+                Func<double, double> polynomialFunctionT = t =>
+            (t * (initialVelocity * Math.Sin(theta))) - (0.5 * g * Math.Pow(t, 2)) - (h2 - h1 + L * Math.Sin(theta));
+
+                double currentValue = polynomialFunctionT(currentT);
+
+                if (currentValue < minValue && currentT > 0 && currentValue > 0)
+                {
+                    minT = currentT;
+                    bestTheta = thetaDegrees;
+                    minValue = currentValue;
+                }
+            }
+        }
+
+        double lastTheta = bestTheta;
+
+        for (double thetaDegrees = lastTheta - 1; thetaDegrees <= lastTheta + 1; thetaDegrees = thetaDegrees + .001)
+        {
+            // Convert degrees to radians
+            double theta = Math.PI * thetaDegrees / 180.0;
+
+            // Quadratic coefficients for a*t^2 + b*t + c = 0
+            double a = -0.5 * g;  // Coefficient of t^2
+            double b = initialVelocity * Math.Sin(theta);  // Coefficient of t
+            double c = -(h2 - h1 + L * Math.Sin(theta));  // Constant term
+
+            // Use the quadratic formula to find the two values for t
+            var result = QuadraticFormula(a, b, c);
+
+            if (result != null)
+            {
+                double t1 = result.Item1;
+                double t2 = result.Item2;
+
+                double currentT = 0;
+
+                if (t1 > 0 && t2 > 0)
+                {
+                    currentT = Math.Min(t1, t2);
+                }
+                else if (t1 > 0)
+                {
+                    currentT = t1;
+                }
+                else if (t2 > 0)
+                {
+                    currentT = t2;
+                }
+                else
+                {
+                    // No positive time, skip this iteration
+                    continue;
+                }
+
+                Func<double, double> polynomialFunctionT = t =>
+            (t * (initialVelocity * Math.Sin(theta))) - (0.5 * g * Math.Pow(t, 2)) - (h2 - h1 + L * Math.Sin(theta));
+
+                double currentValue = polynomialFunctionT(currentT);
+
+                if (currentValue < minValue && currentT > 0 && currentValue > 0)
+                {
+                    minT = currentT;
+                    bestTheta = thetaDegrees;
+                    minValue = currentValue;
+                }
+            }
+        }
+
+        double bestThetaRadians = Math.PI * bestTheta / 180.0;
+        double x1 = minT * (initialVelocity * Math.Cos(bestThetaRadians)) + L * Math.Cos(bestThetaRadians);
+
+        return Tuple.Create(x1, bestTheta);
+
+    } 
+
+
+    public static Tuple<double, double>? QuadraticFormula(double a, double b, double c)
+    {
+        // Calculate the discriminant (b^2 - 4ac)
+        double discriminant = Math.Pow(b, 2) - 4 * a * c;
+
+        if (discriminant < 0)
+        {
+            return null;
+        }
+        else
+        {
+            // Two possible solutions for t
+            double t1 = (-b + Math.Sqrt(discriminant)) / (2 * a);
+            double t2 = (-b - Math.Sqrt(discriminant)) / (2 * a);
+
+            return Tuple.Create(t1, t2);
+        }
+    }
 }
 

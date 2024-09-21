@@ -5,6 +5,8 @@ using System;
 using System.Windows;
 using System.Windows.Media;
 
+//Much of this code was generated with the help of ChatGPT full conversation here: https://docs.google.com/document/d/1UrLh0OxeJ3FkEKg26lzU8MEIWFEr2leX91e96LXiORs/edit?usp=sharing
+
 namespace CS5600HW1
 {
     /// <summary>
