@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Eicn3Ig1kAk=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kettn\\source\\repos\\CS5600HW2\\CS5600HW2\\CS5600HW2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kettn\\.nuget\\packages\\mathnet.numerics\\5.0.0\\mathnet.numerics.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

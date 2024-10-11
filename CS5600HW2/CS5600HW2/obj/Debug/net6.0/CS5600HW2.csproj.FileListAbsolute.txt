@@ -1,0 +1,17 @@
+C:\Users\kettn\source\repos\CS5600HW2\CS5600HW2\bin\Debug\net6.0\CS5600HW2.exe
+C:\Users\kettn\source\repos\CS5600HW2\CS5600HW2\bin\Debug\net6.0\CS5600HW2.deps.json
+C:\Users\kettn\source\repos\CS5600HW2\CS5600HW2\bin\Debug\net6.0\CS5600HW2.runtimeconfig.json
+C:\Users\kettn\source\repos\CS5600HW2\CS5600HW2\bin\Debug\net6.0\CS5600HW2.dll
+C:\Users\kettn\source\repos\CS5600HW2\CS5600HW2\bin\Debug\net6.0\CS5600HW2.pdb
+C:\Users\kettn\source\repos\CS5600HW2\CS5600HW2\obj\Debug\net6.0\CS5600HW2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kettn\source\repos\CS5600HW2\CS5600HW2\obj\Debug\net6.0\CS5600HW2.AssemblyInfoInputs.cache
+C:\Users\kettn\source\repos\CS5600HW2\CS5600HW2\obj\Debug\net6.0\CS5600HW2.AssemblyInfo.cs
+C:\Users\kettn\source\repos\CS5600HW2\CS5600HW2\obj\Debug\net6.0\CS5600HW2.csproj.CoreCompileInputs.cache
+C:\Users\kettn\source\repos\CS5600HW2\CS5600HW2\obj\Debug\net6.0\CS5600HW2.dll
+C:\Users\kettn\source\repos\CS5600HW2\CS5600HW2\obj\Debug\net6.0\refint\CS5600HW2.dll
+C:\Users\kettn\source\repos\CS5600HW2\CS5600HW2\obj\Debug\net6.0\CS5600HW2.pdb
+C:\Users\kettn\source\repos\CS5600HW2\CS5600HW2\obj\Debug\net6.0\CS5600HW2.genruntimeconfig.cache
+C:\Users\kettn\source\repos\CS5600HW2\CS5600HW2\obj\Debug\net6.0\ref\CS5600HW2.dll
+C:\Users\kettn\source\repos\CS5600HW2\CS5600HW2\bin\Debug\net6.0\MathNet.Numerics.dll
+C:\Users\kettn\source\repos\CS5600HW2\CS5600HW2\obj\Debug\net6.0\CS5600HW2.csproj.AssemblyReference.cache
+C:\Users\kettn\source\repos\CS5600HW2\CS5600HW2\obj\Debug\net6.0\CS5600HW2.csproj.Up2Date
